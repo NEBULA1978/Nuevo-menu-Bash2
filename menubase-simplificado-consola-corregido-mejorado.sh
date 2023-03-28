@@ -52,7 +52,7 @@ while true; do
                 break # Si el usuario selecciona la opción de salir, salimos del bucle 'while' y terminamos la ejecución del script.
             else
                 eval "$comando" -r
-                read read -p "Presione Enter para continuar..."
+                read -p "Presione Enter para continuar..."
             fi
         # Si el usuario no ingresó 's' o 'n', le informamos que su respuesta es inválida y pedimos que intente de nuevo.
         else

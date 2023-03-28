@@ -5,17 +5,7 @@
 # Definimos un array con las opciones del menú. Cada opción es una cadena con dos partes separadas por el carácter '|': el nombre de la opción y el comando correspondiente.
 opciones=(
     "Mostrar directorio:|ls"
-    "Mostrar calendario:|cal"
-    "Mostrar fecha de hoy:|date"
-    "Archivos con un solo carácter:|ls ?"
-    "Archivos que empiezan con 'a' seguidos de un carácter:|ls a?"
-    "Archivos que contienen uno de los caracteres 'A', 'B' o 'C':|ls *[ABC]*"
-    "Archivos que no contienen los caracteres 'A', 'B' o 'C':|echo \"ls *[!ABC]*\" && ls *[!ABC]* | more"
-    "Archivos que acaban en un dígito:|ls *[0-9].* | more"
-    "Archivos que acaban en dos dígitos:|ls *[0-9][0-9].*"
-    "Archivos que acaban en una mayúscula:|ls *[A-Z].*"
-    "Archivos que acaban en una minúscula o mayúscula:|ls *[a-zA-Z].*"
-    "Ejecutar script menubase-simplificado.sh:|./menubase-simplificado.sh"
+
     "Salir:|exit 0"
 )
 
